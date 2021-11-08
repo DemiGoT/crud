@@ -1,0 +1,59 @@
+.modal-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-label{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.modal-label input{
+    padding: 10px;
+}
+
+.modal-close{
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.ReactModal__Overlay{
+    background-color: rgba(0,0,0,0.4)!important;
+    z-index: 2;
+}
+
+.close-image{
+    position: relative;
+}
+
+.close-image:hover .btn-close{
+    display: block;
+}
+
+.close-image:hover .close-image__image{
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+.close-image__image{
+    width: 100%;
+}
+
+.btn-close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+    opacity: 1;
+}

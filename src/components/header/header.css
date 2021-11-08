@@ -1,0 +1,13 @@
+.App-header{
+    background-color: #e4e4e4;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.nav-link{
+    font-size: 20px;
+}

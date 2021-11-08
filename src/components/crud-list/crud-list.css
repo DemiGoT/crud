@@ -1,0 +1,21 @@
+.form-control{
+    margin-top: 15px;
+}
+
+.crud-list-item{
+    margin-top: 30px;
+    min-width: 200px;
+}
+
+.crud-list-item__text{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.btn-danger{
+    margin-right: 5px;
+}
